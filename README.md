@@ -1,5 +1,7 @@
 # Ansible role: Git
 
+![Molecule Test](https://github.com/crgwilson/ansible-role-git/workflows/Molecule%20Test/badge.svg?branch=master)
+
 Install [git](https://git-scm.com/)
 
 ## Variables
