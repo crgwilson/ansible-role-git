@@ -3,5 +3,7 @@
   hosts: all
   become: true
 
-  roles:
-    - role: ansible-role-git
+  tasks:
+    - name: "Include ansible-role-git"
+      include_role:
+        name: "ansible-role-git"
